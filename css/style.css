@@ -1,0 +1,202 @@
+:root {
+    --primary-color: #2196f3;
+    --black-color: #000;
+    --dark-grey: #212121;
+    --white-color: #fff;
+    --light-grey: #757575;
+    --navy-blue: #2f303a;
+    --black-rock: #2f303a;
+    --beige: #f5f4fa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-information {
+    background-color: var(--white-color);
+}
+
+.main-information-list {
+    color: var(--black-color);
+}
+
+.main-information-list a:hover,
+.main-information-list a:focus {
+    color: var(--primary-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+    text-decoration: none;
+}
+
+.black-studio {
+    color: var(--black-color);
+}
+
+.white-studio {
+    color: var(--white-color);
+}
+
+.logo {
+    color: var(--primary-color);
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.contact-list a {
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+    list-style: none;
+}
+
+.nav-list a {
+    color: var(--dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.main-information a {
+    text-decoration: none;
+}
+
+.first-section h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #fff;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 10px;
+}
+
+.first-section button {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.dark-bg {
+    background-color: var(--navy-blue);
+}
+
+.button {
+    color: var(--black-color);
+    background-color: var(--beige);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.second-section-list h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.projects h3 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--dark-grey);
+}
+
+.projects p {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--light-grey);
+}
+
+.second-section-list p {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--light-grey);
+    letter-spacing: 0.03em;
+}
+
+.third-section-list,
+.fourth-section-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+}
+
+.workplace {
+    color: var(--light-grey);
+}
+
+.workplace p {
+    font-size: 16px;
+}
+
+.contact {
+    background-color: var(--navy-blue);
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: var(--primary-color);
+}
+
+.address-list a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.address-list span {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.address-list-info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-list-info:hover,
+.address-list-info:focus {
+    color: var(--primary-color);
+}
