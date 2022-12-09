@@ -9,6 +9,11 @@
     --beige: #f5f4fa;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
