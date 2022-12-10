@@ -16,23 +16,26 @@
 
     <body>
         <header class="main-information container">
-            <div class="main-information-list">
+            <div class="main-information-list flex-nav">
                 <nav>
-                    <a class="logo" href="index.html"
-                        >Web<span class="black-studio">Studio</span></a
-                    >
-                    <ul class="nav-list">
-                        <li>
-                            <a href="#">Agencja</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html"> Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Kontakt</a>
-                        </li>
-                    </ul>
+                    <div class="flex-nav-details">
+                        <a class="logo" href="index.html"
+                            >Web<span class="black-studio">Studio</span></a
+                        >
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#">Agencja</a>
+                            </li>
+                            <li>
+                                <a href="portfolio.html"> Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
+
                 <ul class="contact-list">
                     <li>
                         <a href="info@devstudio.com">info@devstudio.com</a>
@@ -56,8 +59,24 @@
 
             <section class="second-section">
                 <div class="container">
-                    <ul class="second-section-list">
-                        <li>
+                    <ul class="second-section-list flex-second-section">
+                        <li class="second-section-item">
+                            <h3 class="title">LOREM IPSUM</h3>
+                            <p class="title-section">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                        <li class="second-section-item">
+                            <h3 class="title">LOREM IPSUM</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </p>
+                        </li>
+                        <li class="second-section-item">
                             <h3>LOREM IPSUM</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
@@ -65,23 +84,7 @@
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
-                        <li>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Nam vel arcu sem. Sed non
-                                sodales dui. Interdum et malesuada
-                            </p>
-                        </li>
-                        <li>
-                            <h3>LOREM IPSUM</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Nam vel arcu sem. Sed non
-                                sodales dui. Interdum et malesuada
-                            </p>
-                        </li>
-                        <li>
+                        <li class="second-section-item">
                             <h3>LOREM IPSUM</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
@@ -95,7 +98,7 @@
             <section class="third-section">
                 <div class="container">
                     <h2 class="third-section-list">Czym się zajmujemy</h2>
-                    <ul>
+                    <ul class="flex-third-section">
                         <li>
                             <img
                                 src="images/board.jpg"
@@ -125,18 +128,19 @@
             </section>
 
             <section clss="fourth-section">
-                <div class="container">
+                <div class="container fourth-section">
                     <h2 class="fourth-section-list">Nasz zespół</h2>
-                    <ul>
+                    <ul class="flex-fourth-section">
                         <li>
                             <figure>
                                 <img
+                                    class="fourth-section-photo"
                                     src="images/product-designer.jpg"
                                     alt="zdjęcie John Doe Product Designer"
                                     width="270"
                                     height="260"
                                 />
-                                <figcaption>
+                                <figcaption class="photo-bg">
                                     <span class="name">John Doe</span>
                                     <p class="workplace">Product Designer</p>
                                 </figcaption>
@@ -145,12 +149,13 @@
                         <li>
                             <figure>
                                 <img
+                                    class="fourth-section-photo"
                                     src="images/frontend-developer.jpg"
                                     alt="zdjęcie John Doe Frontend Developer"
                                     width="270"
                                     height="260"
                                 />
-                                <figcaption>
+                                <figcaption class="photo-bg">
                                     <span class="name">John Doe</span>
                                     <p class="workplace">Frontend Developer</p>
                                 </figcaption>
@@ -159,12 +164,13 @@
                         <li>
                             <figure>
                                 <img
+                                    class="fourth-section-photo"
                                     src="images/marketing.jpg"
                                     alt="zdjęcie John Doe Marketing"
                                     width="270"
                                     height="260"
                                 />
-                                <figcaption>
+                                <figcaption class="photo-bg">
                                     <span class="name">John Doe</span>
                                     <p class="workplace">Marketing</p>
                                 </figcaption>
@@ -178,7 +184,7 @@
                                     width="270"
                                     height="260"
                                 />
-                                <figcaption>
+                                <figcaption class="photo-bg">
                                     <span class="name">John Doe</span>
                                     <p class="workplace">UI Designer</p>
                                 </figcaption>
