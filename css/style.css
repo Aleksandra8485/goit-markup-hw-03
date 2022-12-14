@@ -225,6 +225,10 @@ h1,
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--dark-grey);
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    margin: 0;
 }
 
 .projects p {
@@ -232,6 +236,9 @@ h1,
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--light-grey);
+    margin: 0;
+    padding-left: 24px;
+    padding-bottom: 20px;
 }
 
 .projects {
@@ -239,6 +246,12 @@ h1,
     flex-wrap: wrap;
     gap: 30px;
     list-style: none;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.photo-portfolio {
+    border: 1px solid #eeeeee;
 }
 
 .second-section-list p {
