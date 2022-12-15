@@ -43,6 +43,7 @@ body {
 
 .main-information-list {
     color: var(--black-color);
+    border-bottom: 1px solid #eeeeee;
 }
 
 .main-information-list a:hover,
@@ -155,6 +156,7 @@ h1,
     align-items: center;
     padding-right: 95px;
     padding-left: 310px;
+    padding-top: 94px;
 }
 
 .button {
@@ -332,7 +334,8 @@ h1,
     font-style: normal;
     display: flex;
     text-decoration: none;
-    padding-top: 9px;
+    gap: 9px;
+    padding-bottom: 60px;
 }
 
 .address-list span {
@@ -354,4 +357,13 @@ h1,
 .address-list-info:hover,
 .address-list-info:focus {
     color: var(--primary-color);
+}
+
+.address-details {
+    list-style-type: none;
+    padding-left: 0;
+}
+.address-details a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
