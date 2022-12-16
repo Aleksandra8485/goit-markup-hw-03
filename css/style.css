@@ -25,6 +25,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ul,
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 94px 0;
+}
+
 /*SITE NAV*/
 .flex-nav {
     display: flex;
@@ -39,10 +54,7 @@ body {
 
 .main-information {
     background-color: var(--white-color);
-}
-
-.main-information-list {
-    color: var(--black-color);
+    padding: 24px 0 25px;
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -59,8 +71,6 @@ body {
     text-align: left;
     text-decoration: none;
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .black-studio {
@@ -118,7 +128,7 @@ body {
 
 h1,
 .first-section {
-    margin: 0 auto;
+    text-align: center;
 }
 
 .first-section h1 {
@@ -128,9 +138,8 @@ h1,
     color: #fff;
     letter-spacing: 0.06em;
     text-align: center;
-    padding: 200px 252px 280px 252px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 30px 252px 252px;
+    padding-top: 106px;
 }
 
 .first-section button {
@@ -141,8 +150,7 @@ h1,
     outline: none;
     border: none;
     border-radius: 4px;
-    padding: 9px 41px 10px 42px;
-    margin: 31px 500px 200px 500px;
+    padding-bottom: 106px;
 }
 
 .dark-bg {
@@ -207,8 +215,8 @@ h1,
 }
 
 .third-section {
-    padding: 94px 0 50px 0;
-    margin: 0;
+    padding: 94px 0 50px;
+    margin-top: -94px;
 }
 
 .fourth-section {
@@ -278,6 +286,9 @@ h1,
     line-height: 1.17;
     color: var(--dark-grey);
     text-align: center;
+}
+.third-section-list {
+    margin-bottom: 50px;
 }
 
 .fourth-section-list {
