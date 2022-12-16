@@ -138,8 +138,7 @@ h1,
     color: #fff;
     letter-spacing: 0.06em;
     text-align: center;
-    margin: 30px 252px 252px;
-    padding-top: 106px;
+    margin: 106px 252px 30px;
 }
 
 .first-section button {
@@ -198,7 +197,6 @@ h1,
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 94px 0;
     gap: 30px;
 }
 
@@ -343,7 +341,6 @@ h1,
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
-    display: flex;
     text-decoration: none;
     gap: 9px;
     padding-bottom: 60px;
@@ -371,6 +368,8 @@ h1,
 }
 
 .address-details {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     padding-left: 0;
 }
