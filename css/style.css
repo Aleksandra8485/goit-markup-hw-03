@@ -309,10 +309,7 @@ h1,
 /*FOOTER*/
 .contact {
     background-color: var(--navy-blue);
-}
-
-.contact-logo {
-    padding-top: 60px;
+    padding: 60px 0;
 }
 
 .contact a:hover,
@@ -331,7 +328,6 @@ h1,
     font-style: normal;
     text-decoration: none;
     gap: 9px;
-    padding-bottom: 60px;
 }
 
 .address-list span {
