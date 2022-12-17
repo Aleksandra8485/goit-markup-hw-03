@@ -135,7 +135,7 @@ img {
 .first-section h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.3636;
+    line-height: 1.36;
     color: #fff;
     letter-spacing: 0.06em;
     text-align: center;
@@ -263,7 +263,9 @@ img {
 }
 
 .photo-portfolio {
-    border: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 
 .second-section-list p {
