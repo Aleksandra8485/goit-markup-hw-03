@@ -62,8 +62,10 @@ img {
     border-bottom: 1px solid #eeeeee;
 }
 
-.main-information-list a:hover,
-.main-information-list a:focus {
+.nav-list a:hover,
+.nav-list a:focus,
+.contact-list a:hover,
+.contact-list a:focus {
     color: var(--primary-color);
 }
 
