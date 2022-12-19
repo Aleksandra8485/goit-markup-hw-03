@@ -318,16 +318,12 @@ img {
 }
 
 .address-list {
-    margin-top: 20px;
-}
-
-.address-list {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
     text-decoration: none;
-    gap: 9px;
+    margin-top: 20px;
 }
 
 .address-list span {
@@ -338,17 +334,20 @@ img {
     padding-top: 20px;
 }
 
-.address-list-info {
+.footer-contact {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: underline;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    width: fit-content;
 }
 
-.address-list-info:hover,
-.address-list-info:focus {
+.underline {
+    text-decoration: underline;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
     color: var(--primary-color);
 }
 
@@ -357,8 +356,5 @@ img {
     flex-direction: column;
     list-style-type: none;
     padding-left: 0;
-}
-.address-details a {
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+    gap: 9px;
 }
