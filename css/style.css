@@ -344,6 +344,7 @@ img {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    width: fit-content;
 }
 
 .address-list-info:hover,
